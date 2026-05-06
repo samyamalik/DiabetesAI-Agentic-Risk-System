@@ -1,0 +1,8 @@
+# Vector Database Directory
+# Placeholder for FAISS/Chroma vector embeddings used by the recommendation agent
+# for RAG (Retrieval-Augmented Generation) support
+
+This directory will contain:
+- Vectorized recommendation database
+- Medical knowledge embeddings
+- Similarity search indices

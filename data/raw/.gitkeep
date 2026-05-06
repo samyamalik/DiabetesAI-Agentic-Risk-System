@@ -1,0 +1,8 @@
+# Raw Data Directory
+# Place raw diabetes datasets here in CSV format
+
+Expected format:
+- age, gender, bmi, blood_pressure_systolic, blood_pressure_diastolic
+- fasting_glucose, cholesterol, triglycerides, physical_activity
+- smoking_status, alcohol_consumption, family_history
+- diabetes_risk (target variable, 0-1 scale)

@@ -1,0 +1,7 @@
+# Saved Models Directory
+# Contains trained ML models and preprocessing artifacts (scaler, encoders)
+
+Files saved here:
+- xgboost_model.pkl  (or random_forest_model.pkl, logistic_regression_model.pkl)
+- scaler.pkl
+- encoder.pkl

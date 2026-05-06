@@ -1,0 +1,580 @@
+{
+  "PAT-001": [
+    {
+      "date": "2026-04-28 11:05",
+      "input": {
+        "Pregnancies": 1,
+        "Glucose": 120.0,
+        "BloodPressure": 72.0,
+        "SkinThickness": 29.0,
+        "Insulin": 100.0,
+        "BMI": 25.0,
+        "DiabetesPedigreeFunction": 0.35,
+        "Age": 30
+      },
+      "risk_level": "Low",
+      "probability": 0.1069,
+      "explanation": "\ud83d\udd0d RISK ASSESSMENT: Low Risk (probability 10.7%)\n\n\ud83d\udcca KEY RISK DRIVERS: The patient's risk is primarily driven by Blood Pressure (72.0 mmHg), BMI Category, Number of Pregnancies (1), BMI (25.0), and Family History Score (0.35).\n   These factors significantly contributed to the prediction.\n\n\ud83d\udee1\ufe0f  PROTECTIVE FACTORS: age, insulin, glucose level helped lower the risk score.\n\n\ud83d\udca1 CLINICAL SUMMARY:\n   Current metrics suggest low diabetes risk. Maintain a healthy lifestyle with regular checkups.\n\n\u26a0\ufe0f  This is a decision-support explanation, NOT a medical diagnosis. Always consult a qualified healthcare provider.",
+      "recommendation": "Diet:\n\u2022 Maintain a balanced diet.\n\u2022 Monitor carbohydrate intake.\nExercise:\n\u2022 Engage in 30 mins of moderate exercise daily.\nLifestyle:\n\u2022 Regular check-ups.\nWarning:\nConsult a qualified doctor before making any medical decisions.",
+      "orchestrator_reasoning": "LLM reasoning unavailable due to quota or network error. Proceeding with standard rule-based monitoring.",
+      "alerts": [],
+      "escalate": false
+    },
+    {
+      "date": "2026-04-28 11:30",
+      "input": {
+        "Pregnancies": 1,
+        "Glucose": 120.0,
+        "BloodPressure": 72.0,
+        "SkinThickness": 29.0,
+        "Insulin": 100.0,
+        "BMI": 25.0,
+        "DiabetesPedigreeFunction": 0.35,
+        "Age": 30
+      },
+      "risk_level": "Low",
+      "probability": 0.1069,
+      "explanation": "\ud83d\udd0d RISK ASSESSMENT: Low Risk (probability 10.7%)\n\n\ud83d\udcca KEY RISK DRIVERS: The patient's risk is primarily driven by Blood Pressure (72.0 mmHg), BMI Category, Number of Pregnancies (1), BMI (25.0), and Family History Score (0.35).\n   These factors significantly contributed to the prediction.\n\n\ud83d\udee1\ufe0f  PROTECTIVE FACTORS: age, insulin, glucose level helped lower the risk score.\n\n\ud83d\udca1 CLINICAL SUMMARY:\n   Current metrics suggest low diabetes risk. Maintain a healthy lifestyle with regular checkups.\n\n\u26a0\ufe0f  This is a decision-support explanation, NOT a medical diagnosis. Always consult a qualified healthcare provider.",
+      "recommendation": "Diet:\n\u2022 Maintain a balanced diet.\n\u2022 Monitor carbohydrate intake.\nExercise:\n\u2022 Engage in 30 mins of moderate exercise daily.\nLifestyle:\n\u2022 Regular check-ups.\nWarning:\nConsult a qualified doctor before making any medical decisions.",
+      "orchestrator_reasoning": "LLM reasoning unavailable due to quota or network error. Proceeding with standard rule-based monitoring.",
+      "alerts": [],
+      "escalate": false
+    },
+    {
+      "date": "2026-04-28 11:37",
+      "input": {
+        "Pregnancies": 1,
+        "Glucose": 120.0,
+        "BloodPressure": 72.0,
+        "SkinThickness": 29.0,
+        "Insulin": 100.0,
+        "BMI": 25.0,
+        "DiabetesPedigreeFunction": 0.35,
+        "Age": 30
+      },
+      "risk_level": "Low",
+      "probability": 0.1069,
+      "explanation": "\ud83d\udd0d RISK ASSESSMENT: Low Risk (probability 10.7%)\n\n\ud83d\udcca KEY RISK DRIVERS: The patient's risk is primarily driven by Blood Pressure (72.0 mmHg), BMI Category, Number of Pregnancies (1), BMI (25.0), and Family History Score (0.35).\n   These factors significantly contributed to the prediction.\n\n\ud83d\udee1\ufe0f  PROTECTIVE FACTORS: age, insulin, glucose level helped lower the risk score.\n\n\ud83d\udca1 CLINICAL SUMMARY:\n   Current metrics suggest low diabetes risk. Maintain a healthy lifestyle with regular checkups.\n\n\u26a0\ufe0f  This is a decision-support explanation, NOT a medical diagnosis. Always consult a qualified healthcare provider.",
+      "recommendation": "Diet:\n\u2022 Maintain a balanced diet.\n\u2022 Monitor carbohydrate intake.\nExercise:\n\u2022 Engage in 30 mins of moderate exercise daily.\nLifestyle:\n\u2022 Regular check-ups.\nWarning:\nConsult a qualified doctor before making any medical decisions.",
+      "orchestrator_reasoning": "LLM reasoning unavailable due to quota or network error. Proceeding with standard rule-based monitoring.",
+      "alerts": [],
+      "escalate": false
+    },
+    {
+      "date": "2026-04-28 18:20",
+      "input": {
+        "Pregnancies": 2,
+        "Glucose": 130.0,
+        "BloodPressure": 100.0,
+        "SkinThickness": 33.0,
+        "Insulin": 13.0,
+        "BMI": 29.0,
+        "DiabetesPedigreeFunction": 0.4,
+        "Age": 55
+      },
+      "risk_level": "Moderate",
+      "probability": 0.3454,
+      "explanation": "\ud83d\udd0d RISK ASSESSMENT: Moderate Risk (probability 34.5%)\n\n\ud83d\udcca KEY RISK DRIVERS: The patient's risk is primarily driven by BMI Category, Skin Thickness (33.0 mm), BMI (29.0), Number of Pregnancies (2), and elevated Age (55 years \u2014 older age is associated with higher risk).\n   These factors significantly contributed to the prediction.\n\n\ud83d\udee1\ufe0f  PROTECTIVE FACTORS: family history score, glucose level, insulin helped lower the risk score.\n\n\ud83d\udca1 CLINICAL SUMMARY:\n   Moderate risk detected. Lifestyle modifications (diet, exercise) and periodic monitoring are recommended.\n\n\u26a0\ufe0f  This is a decision-support explanation, NOT a medical diagnosis. Always consult a qualified healthcare provider.",
+      "recommendation": "Diet:\n\u2022 Focus on eating smaller portions to help manage your weight.\n\u2022 Choose whole grains like oats and brown rice over refined grains.\n\u2022 Fill half your plate with non-starchy vegetables such as broccoli and spinach.\n\u2022 Limit sugary drinks and foods high in added sugars.\n\nExercise:\n\u2022 Aim for at least 30 minutes of brisk walking most days of the week.\n\u2022 Include activities that build muscle, like lifting light weights, 2-3 times a week.\n\u2022 Break up long periods of sitting by moving around every hour.\n\nLifestyle:\n\u2022 Work towards a healthy weight, as this is a key step for your health.\n\u2022 Schedule regular check-ups with your doctor to monitor your health.\n\u2022 Practice stress-reducing activities like deep breathing or hobbies.\n\u2022 Aim for 7-9 hours of quality sleep each night.\n\nWarning:\nConsult a qualified doctor before making any medical decisions. This system is for decision support only and is not a diagnosis.",
+      "orchestrator_reasoning": "Risk Summary:\n- Level: Moderate\n- Key Drivers: BMI Category (Overweight), Skin Thickness, Age (55)\n\nClinical Insight:\n- Patient presents with moderate T2D risk, primarily influenced by current weight status and age.\n\nRecommendations (Refined):\n- Diet: Focus on portion control with whole grains; prioritize non-starchy vegetables.\n- Exercise: Aim for 30 minutes of brisk walking most days; incorporate strength training 2-3 times/week.\n- Lifestyle: Work towards a healthy weight; ensure regular medical check-ups.\n\nMonitoring Insight:\n- Trend: first_visit\n- Key Concern: Managing moderate risk through sustained lifestyle changes and monitoring progression.\n\nDecision:\n- Action: Maintain\n- Justification: Moderate risk identified, initial comprehensive lifestyle recommendations are appropriate for a first visit to address key drivers.\n\nAlerts:\n- None\n\nConsult a qualified doctor before acting on this advice.",
+      "alerts": [],
+      "escalate": false
+    },
+    {
+      "date": "2026-04-28 19:17",
+      "input": {
+        "Pregnancies": 3,
+        "Glucose": 120.0,
+        "BloodPressure": 110.0,
+        "SkinThickness": 33.0,
+        "Insulin": 150.0,
+        "BMI": 33.0,
+        "DiabetesPedigreeFunction": 0.35,
+        "Age": 45
+      },
+      "risk_level": "High",
+      "probability": 0.5738,
+      "explanation": "\ud83d\udd0d RISK ASSESSMENT: High Risk (probability 57.4%)\n\n\ud83d\udcca KEY RISK DRIVERS: The patient's risk is primarily driven by Glucose Category, Insulin (150.0 \u03bcU/mL), elevated Blood Pressure (110.0 mmHg \u2014 elevated blood pressure), Number of Pregnancies (3), and Age (45 years).\n   These factors significantly contributed to the prediction.\n\n\ud83d\udee1\ufe0f  PROTECTIVE FACTORS: family history score, glucose level, skin thickness helped lower the risk score.\n\n\ud83d\udca1 CLINICAL SUMMARY:\n   High risk identified. Proactive clinical intervention and close monitoring are strongly recommended.\n\n\u26a0\ufe0f  This is a decision-support explanation, NOT a medical diagnosis. Always consult a qualified healthcare provider.",
+      "recommendation": "Diet:\n\u2022 Focus on eating more whole foods like fruits, vegetables, and whole grains to help manage blood sugar.\n\u2022 Choose lean proteins and healthy fats to support your metabolism and help you feel full.\n\u2022 Limit sugary drinks, processed snacks, and foods high in salt to support healthy blood pressure and blood sugar levels.\n\u2022 Practice mindful eating and portion control to help manage your weight.\n\nExercise:\n\u2022 Aim for at least 30 minutes of moderate-intensity activity, like brisk walking, most days of the week.\n\u2022 Include activities that build muscle, such as lifting light weights or using resistance bands, two to three times a week.\n\u2022 Start slowly and gradually increase the duration and intensity of your workouts to build stamina safely.\n\nLifestyle:\n\u2022 Prioritize getting 7-9 hours of quality sleep each night to support your body's ability to manage blood sugar and stress.\n\u2022 Find healthy ways to manage stress, such as deep breathing exercises, meditation, or spending time in nature.\n\u2022 Schedule regular check-ups with your doctor to monitor your blood sugar, blood pressure, and overall health.\n\u2022 Stay well-hydrated by drinking plenty of water throughout the day.\n\nWarning:\nConsult a qualified doctor before making any medical decisions. This system is for decision support only and is not a diagnosis.",
+      "orchestrator_reasoning": "Risk Summary:\n- Level: High\n- Key Drivers: Glucose Category, Insulin (150.0 \u03bcU/mL), Blood Pressure (110.0 mmHg)\n\nClinical Insight:\nHigh risk of Type 2 Diabetes identified, primarily driven by elevated insulin, elevated blood pressure, and age, despite normal glucose. Proactive intervention is strongly recommended.\n\nRecommendations (Refined):\n- Diet: Prioritize low glycemic index foods and portion control to manage blood sugar and weight. Limit processed foods, sugary drinks, and high-sodium items.\n- Exercise: Aim for consistent moderate-intensity aerobic activity (30+ min, most days) combined with strength training (2-3 times/week) to improve insulin sensitivity and support weight management.\n- Lifestyle: Ensure 7-9 hours of quality sleep and implement stress reduction techniques. Schedule frequent medical check-ups for close monitoring of metabolic markers.\n\nMonitoring Insight:\n- Trend: first_visit\n- Key Concern: High risk profile with elevated insulin and blood pressure requiring immediate, proactive management and close medical supervision.\n\nDecision:\n- Action: Intensify\n- Justification: High risk identified on initial assessment, with multiple metabolic risk factors present. Proactive and targeted interventions are necessary.\n\nAlerts:\n- High T2D Risk\n- Elevated Insulin & Blood Pressure\n\nConsult a qualified doctor before acting on this advice.",
+      "alerts": [],
+      "escalate": true
+    },
+    {
+      "date": "2026-04-28 20:42",
+      "input": {
+        "Pregnancies": 1,
+        "Glucose": 120.0,
+        "BloodPressure": 72.0,
+        "SkinThickness": 29.0,
+        "Insulin": 100.0,
+        "BMI": 25.0,
+        "DiabetesPedigreeFunction": 0.35,
+        "Age": 30
+      },
+      "risk_level": "Low",
+      "probability": 0.1069,
+      "explanation": "\ud83d\udd0d RISK ASSESSMENT: Low Risk (probability 10.7%)\n\n\ud83d\udcca KEY RISK DRIVERS: The patient's risk is primarily driven by Blood Pressure (72.0 mmHg), BMI Category, Number of Pregnancies (1), BMI (25.0), and Family History Score (0.35).\n   These factors significantly contributed to the prediction.\n\n\ud83d\udee1\ufe0f  PROTECTIVE FACTORS: age, insulin, glucose level helped lower the risk score.\n\n\ud83d\udca1 CLINICAL SUMMARY:\n   Current metrics suggest low diabetes risk. Maintain a healthy lifestyle with regular checkups.\n\n\u26a0\ufe0f  This is a decision-support explanation, NOT a medical diagnosis. Always consult a qualified healthcare provider.",
+      "recommendation": "Diet:\n\u2022 Focus on eating plenty of colorful fruits and vegetables every day. These foods are packed with nutrients and fiber, which help keep your body healthy.\n\u2022 Choose whole grains like oats, brown rice, and whole wheat bread instead of refined grains. They help you feel full longer and support stable energy levels.\n\u2022 Limit foods high in added sugars, unhealthy fats, and excessive salt. This can help maintain a healthy weight and support healthy blood pressure.\n\u2022 Include lean proteins like chicken, fish, beans, and lentils in your meals. They are important for muscle health and can help manage your weight.\n\nExercise:\n\u2022 Aim for at least 30 minutes of moderate-intensity activity most days of the week, such as brisk walking, cycling, or swimming. This helps maintain a healthy weight and supports heart health.\n\u2022 Incorporate strength training exercises two to three times a week. This could include lifting light weights or using your body weight for exercises like squats and push-ups.\n\u2022 Find activities you enjoy to make exercise a regular and fun part of your routine. Consistency is key for long-term benefits.\n\nLifestyle:\n\u2022 Continue to monitor your weight and aim to maintain a healthy BMI. Small, consistent efforts can make a big difference over time.\n\u2022 Schedule regular check-ups with your healthcare provider to keep track of your overall health, including blood pressure and blood sugar levels, especially given your family history.\n\u2022 Prioritize getting enough quality sleep each night (7-9 hours). Good sleep supports your body's overall health and can help manage stress.\n\nWarning:\nConsult a qualified doctor before making any medical decisions. This system is for decision support only and is not a diagnosis.",
+      "orchestrator_reasoning": "LLM reasoning unavailable due to quota or network error. Proceeding with standard rule-based monitoring.",
+      "alerts": [],
+      "escalate": false
+    },
+    {
+      "date": "2026-04-28 20:49",
+      "input": {
+        "Pregnancies": 1,
+        "Glucose": 120.0,
+        "BloodPressure": 72.0,
+        "SkinThickness": 29.0,
+        "Insulin": 100.0,
+        "BMI": 25.0,
+        "DiabetesPedigreeFunction": 0.35,
+        "Age": 30
+      },
+      "risk_level": "Low",
+      "probability": 0.1069,
+      "explanation": "\ud83d\udd0d RISK ASSESSMENT: Low Risk (probability 10.7%)\n\n\ud83d\udcca KEY RISK DRIVERS: The patient's risk is primarily driven by Blood Pressure (72.0 mmHg), BMI Category, Number of Pregnancies (1), BMI (25.0), and Family History Score (0.35).\n   These factors significantly contributed to the prediction.\n\n\ud83d\udee1\ufe0f  PROTECTIVE FACTORS: age, insulin, glucose level helped lower the risk score.\n\n\ud83d\udca1 CLINICAL SUMMARY:\n   Current metrics suggest low diabetes risk. Maintain a healthy lifestyle with regular checkups.\n\n\u26a0\ufe0f  This is a decision-support explanation, NOT a medical diagnosis. Always consult a qualified healthcare provider.",
+      "recommendation": "Diet:\n\u2022 Maintain a balanced diet.\n\u2022 Monitor carbohydrate intake.\nExercise:\n\u2022 Engage in 30 mins of moderate exercise daily.\nLifestyle:\n\u2022 Regular check-ups.\nWarning:\nConsult a qualified doctor before making any medical decisions.",
+      "orchestrator_reasoning": "LLM reasoning unavailable due to quota or network error. Proceeding with standard rule-based monitoring.",
+      "alerts": [],
+      "escalate": false
+    },
+    {
+      "date": "2026-04-28 20:51",
+      "input": {
+        "Pregnancies": 1,
+        "Glucose": 120.0,
+        "BloodPressure": 72.0,
+        "SkinThickness": 29.0,
+        "Insulin": 100.0,
+        "BMI": 25.0,
+        "DiabetesPedigreeFunction": 0.35,
+        "Age": 30
+      },
+      "risk_level": "Low",
+      "probability": 0.1069,
+      "explanation": "\ud83d\udd0d RISK ASSESSMENT: Low Risk (probability 10.7%)\n\n\ud83d\udcca KEY RISK DRIVERS: The patient's risk is primarily driven by Blood Pressure (72.0 mmHg), BMI Category, Number of Pregnancies (1), BMI (25.0), and Family History Score (0.35).\n   These factors significantly contributed to the prediction.\n\n\ud83d\udee1\ufe0f  PROTECTIVE FACTORS: age, insulin, glucose level helped lower the risk score.\n\n\ud83d\udca1 CLINICAL SUMMARY:\n   Current metrics suggest low diabetes risk. Maintain a healthy lifestyle with regular checkups.\n\n\u26a0\ufe0f  This is a decision-support explanation, NOT a medical diagnosis. Always consult a qualified healthcare provider.",
+      "recommendation": "Diet:\n*   Prioritize whole, unprocessed foods like fruits, vegetables, and lean proteins to help manage your weight.\n*   Choose whole grains over refined grains to support stable blood sugar levels.\n*   Limit sugary drinks, sweets, and highly processed snacks to maintain a healthy weight and blood pressure.\n*   Practice portion control to ensure you're eating appropriate amounts for your body.\n\nExercise:\n*   Aim for at least 150 minutes of moderate-intensity exercise each week, such as brisk walking, swimming, or cycling.\n*   Include activities that build muscle strength at least two days a week.\n*   Try to reduce long periods of sitting by taking short breaks to move around throughout your day.\n\nLifestyle:\n*   Continue to monitor your weight and aim to stay within a healthy range for your height.\n*   Schedule regular health check-ups with your doctor to keep an eye on your blood pressure and glucose levels.\n*   Find healthy ways to manage stress, like mindfulness or hobbies, to support your overall well-being.\n*   Ensure you get enough restful sleep, as it plays a role in maintaining good health.\n\nWarning:\nConsult a qualified doctor before making any medical decisions. This system is for decision support only and is not a diagnosis.",
+      "orchestrator_reasoning": "Risk Summary:\n- Level: Low\n- Key Drivers: Blood Pressure, BMI Category, Number of Pregnancies\n\nClinical Insight:\n- Patient presents with low diabetes risk. Focus on maintaining a healthy weight and lifestyle to mitigate future risk factors.\n\nRecommendations (Refined):\n- Diet: Prioritize whole foods, fruits, vegetables, and lean proteins. Limit sugary drinks and highly processed snacks.\n- Exercise: Aim for 150 minutes of moderate-intensity activity weekly. Incorporate strength training twice a week.\n- Lifestyle: Monitor weight and attend regular health check-ups. Practice stress management and ensure adequate sleep.\n\nMonitoring Insight:\n- Trend: first_visit\n- Key Concern: Maintaining healthy weight and blood pressure to prevent future risk elevation.\n\nDecision:\n- Action: Maintain\n- Justification: Patient is low risk with no worsening trend. Current recommendations are appropriate for promoting a healthy lifestyle.\n\nAlerts:\n- None\n\nConsult a qualified doctor before acting on this advice.",
+      "alerts": [],
+      "escalate": false
+    },
+    {
+      "date": "2026-04-28 20:54",
+      "input": {
+        "Pregnancies": 4,
+        "Glucose": 120.0,
+        "BloodPressure": 72.0,
+        "SkinThickness": 29.0,
+        "Insulin": 100.0,
+        "BMI": 25.0,
+        "DiabetesPedigreeFunction": 0.35,
+        "Age": 30
+      },
+      "risk_level": "Low",
+      "probability": 0.12,
+      "explanation": "\ud83d\udd0d RISK ASSESSMENT: Low Risk (probability 12.0%)\n\n\ud83d\udcca KEY RISK DRIVERS: The patient's risk is primarily driven by Blood Pressure (72.0 mmHg), BMI Category, BMI (25.0), Number of Pregnancies (4), and Family History Score (0.35).\n   These factors significantly contributed to the prediction.\n\n\ud83d\udee1\ufe0f  PROTECTIVE FACTORS: age, glucose level, insulin helped lower the risk score.\n\n\ud83d\udca1 CLINICAL SUMMARY:\n   Current metrics suggest low diabetes risk. Maintain a healthy lifestyle with regular checkups.\n\n\u26a0\ufe0f  This is a decision-support explanation, NOT a medical diagnosis. Always consult a qualified healthcare provider.",
+      "recommendation": "Diet:\n\u2022 Focus on balanced meals rich in vegetables, fruits, and whole grains to support a healthy weight and stable blood sugar.\n\u2022 Choose lean proteins and healthy fats to help you feel satisfied and maintain your energy levels.\n\u2022 Limit processed foods and sugary drinks to help keep your blood sugar steady and support your healthy BMI.\n\u2022 Pay attention to portion sizes to help manage your weight and maintain your current healthy status.\n\nExercise:\n\u2022 Aim for at least 150 minutes of moderate-intensity activity each week, like brisk walking or swimming, to support heart health and maintain your healthy BMI.\n\u2022 Include strength training exercises 2-3 times a week to build muscle, which helps with metabolism and overall fitness.\n\u2022 Find enjoyable ways to stay active regularly, making movement a consistent part of your routine.\n\nLifestyle:\n\u2022 Schedule regular check-ups with your healthcare provider to monitor your health and discuss any concerns, especially given your family history.\n\u2022 Prioritize getting 7-9 hours of quality sleep each night, as good sleep supports overall health and helps manage your weight.\n\u2022 Find healthy ways to manage stress, such as relaxation techniques or hobbies, for your general well-being.\n\nWarning:\nConsult a qualified doctor before making any medical decisions. This system is for decision support only and is not a diagnosis.",
+      "orchestrator_reasoning": "Risk Summary:\n- Level: Low\n- Key Drivers: Blood Pressure, BMI Category (Overweight), Number of Pregnancies\n\nClinical Insight:\n- Patient exhibits low diabetes risk with stable metrics, but key drivers like BMI and pregnancy history warrant proactive health management.\n\nRecommendations (Refined):\n- Diet:\n    - Prioritize balanced meals with whole grains, lean proteins, and vegetables to support healthy weight and blood sugar.\n    - Limit processed foods and sugary drinks to manage BMI and maintain stable glucose levels.\n- Exercise:\n    - Engage in at least 150 minutes of moderate-intensity activity weekly for cardiovascular health and weight management.\n    - Incorporate strength training 2-3 times a week to build muscle and support metabolism.\n- Lifestyle:\n    - Schedule regular medical check-ups to monitor health, especially given family history and pregnancy count.\n    - Prioritize 7-9 hours of quality sleep and stress management for overall well-being.\n\nMonitoring Insight:\n- Trend: Stable\n- Key Concern: Maintain vigilance on BMI and blood pressure given identified risk factors, despite current low risk status.\n\nDecision:\n- Action: Maintain\n- Justification: Patient is at low risk with stable health metrics; current comprehensive lifestyle recommendations are appropriate.\n\nAlerts:\n- None\n\nConsult a qualified doctor before acting on this advice.",
+      "alerts": [],
+      "escalate": false
+    },
+    {
+      "date": "2026-04-28 20:58",
+      "input": {
+        "Pregnancies": 1,
+        "Glucose": 120.0,
+        "BloodPressure": 72.0,
+        "SkinThickness": 29.0,
+        "Insulin": 100.0,
+        "BMI": 25.0,
+        "DiabetesPedigreeFunction": 0.35,
+        "Age": 30
+      },
+      "risk_level": "Low",
+      "probability": 0.1069,
+      "explanation": "\ud83d\udd0d RISK ASSESSMENT: Low Risk (probability 10.7%)\n\n\ud83d\udcca KEY RISK DRIVERS: The patient's risk is primarily driven by Blood Pressure (72.0 mmHg), BMI Category, Number of Pregnancies (1), BMI (25.0), and Family History Score (0.35).\n   These factors significantly contributed to the prediction.\n\n\ud83d\udee1\ufe0f  PROTECTIVE FACTORS: age, insulin, glucose level helped lower the risk score.\n\n\ud83d\udca1 CLINICAL SUMMARY:\n   Current metrics suggest low diabetes risk. Maintain a healthy lifestyle with regular checkups.\n\n\u26a0\ufe0f  This is a decision-support explanation, NOT a medical diagnosis. Always consult a qualified healthcare provider.",
+      "recommendation": "Diet:\n\u2022 Focus on eating plenty of fruits, vegetables, and whole grains. This helps manage your weight and supports overall health.\n\u2022 Choose lean proteins and healthy fats, like those found in nuts and avocados. This can help maintain healthy blood pressure and energy levels.\n\u2022 Limit sugary drinks and processed foods. Opt for water or unsweetened beverages to help keep your glucose levels stable.\n\u2022 Pay attention to portion sizes to help maintain a healthy weight, especially since your BMI is at the higher end of the healthy range.\n\nExercise:\n\u2022 Aim for at least 30 minutes of moderate physical activity most days of the week, such as brisk walking or cycling. This helps manage weight and supports heart health.\n\u2022 Incorporate activities you enjoy to make exercise a regular and sustainable part of your routine.\n\u2022 Consider adding strength training exercises two to three times a week to build muscle, which helps with metabolism.\n\nLifestyle:\n\u2022 Monitor your weight regularly and aim to maintain a healthy BMI to keep your risk low.\n\u2022 Prioritize getting 7-9 hours of quality sleep each night, as good sleep supports overall health and metabolism.\n\u2022 Schedule regular check-ups with your doctor to monitor your health, especially given your family history of diabetes.\n\nWarning:\nConsult a qualified doctor before making any medical decisions. This system is for decision support only and is not a diagnosis.",
+      "orchestrator_reasoning": "Risk Summary:\n- Level: Low\n- Key Drivers: Blood Pressure, BMI Category, Number of Pregnancies\n\nClinical Insight:\n- Patient exhibits low diabetes risk with current metrics, but key drivers like BMI and blood pressure warrant attention.\n- Overall health indicators are stable, supporting a focus on preventive lifestyle measures.\n\nRecommendations (Refined):\n- Diet: Prioritize whole foods, lean proteins, and healthy fats; limit sugary drinks and processed items. Pay attention to portion sizes to manage weight.\n- Exercise: Aim for 30 minutes of moderate activity most days; incorporate strength training 2-3 times weekly.\n- Lifestyle: Monitor weight regularly to maintain a healthy BMI; ensure 7-9 hours of quality sleep nightly, and schedule routine medical check-ups.\n\nMonitoring Insight:\n- Trend: stable\n- Key Concern: Maintaining healthy BMI and blood pressure, as these are identified risk drivers despite current stability.\n\nDecision:\n- Action: Maintain\n- Justification: Low risk and stable trends indicate current general healthy lifestyle recommendations are appropriate and sufficient.\n\nAlerts:\n- None\n\nConsult a qualified doctor before acting on this advice.",
+      "alerts": [],
+      "escalate": false
+    },
+    {
+      "date": "2026-04-28 21:46",
+      "input": {
+        "Pregnancies": 1,
+        "Glucose": 120.0,
+        "BloodPressure": 72.0,
+        "SkinThickness": 29.0,
+        "Insulin": 100.0,
+        "BMI": 25.0,
+        "DiabetesPedigreeFunction": 0.35,
+        "Age": 30
+      },
+      "risk_level": "Low",
+      "probability": 0.1069,
+      "explanation": "\ud83d\udd0d RISK ASSESSMENT: Low Risk (probability 10.7%)\n\n\ud83d\udcca KEY RISK DRIVERS: The patient's risk is primarily driven by Blood Pressure (72.0 mmHg), BMI Category, Number of Pregnancies (1), BMI (25.0), and Family History Score (0.35).\n   These factors significantly contributed to the prediction.\n\n\ud83d\udee1\ufe0f  PROTECTIVE FACTORS: age, insulin, glucose level helped lower the risk score.\n\n\ud83d\udca1 CLINICAL SUMMARY:\n   Current metrics suggest low diabetes risk. Maintain a healthy lifestyle with regular checkups.\n\n\u26a0\ufe0f  This is a decision-support explanation, NOT a medical diagnosis. Always consult a qualified healthcare provider.",
+      "recommendation": "Diet:\n\u2022 Prioritize whole, unprocessed foods like fruits, vegetables, and whole grains to support a healthy weight and stable energy levels.\n\u2022 Be mindful of portion sizes, especially for calorie-dense foods, to help manage your BMI.\n\u2022 Choose lean protein sources and healthy fats to help you feel full and satisfied, which can aid in weight management.\n\u2022 Limit sugary drinks and foods high in added sugars to help maintain healthy blood sugar and blood pressure.\n\nExercise:\n\u2022 Engage in at least 150 minutes of moderate-intensity aerobic activity each week, like brisk walking or cycling, to support heart health and weight management.\n\u2022 Incorporate strength training exercises 2-3 times a week to build muscle, which helps with metabolism and maintaining a healthy BMI.\n\u2022 Break up long periods of sitting with short walks or stretches throughout your day to boost overall activity.\n\nLifestyle:\n\u2022 Continue to maintain a healthy weight, as your current BMI is a key factor in managing your risk.\n\u2022 Given your family history, make healthy lifestyle choices a consistent priority to proactively manage your long-term health.\n\u2022 Ensure you get 7-9 hours of quality sleep each night, as good sleep supports overall health, weight management, and blood pressure control.\n\u2022 Manage stress effectively through activities like mindfulness, hobbies, or spending time in nature, as stress can impact blood pressure and overall well-being.\n\nWarning:\nConsult a qualified doctor before making any medical decisions. This system is for decision support only and is not a diagnosis.",
+      "orchestrator_reasoning": "Risk Summary:\n- Level: Low\n- Key Drivers: Blood Pressure, BMI Category, Number of Pregnancies\n\nClinical Insight:\n- Patient exhibits a low diabetes risk profile with stable metabolic indicators. Proactive lifestyle management is key for long-term health.\n\nRecommendations (Refined):\n- Diet: Prioritize whole foods, control portion sizes, and limit sugary drinks to support healthy weight and blood sugar.\n- Exercise: Engage in 150 minutes of moderate aerobic activity and 2-3 strength training sessions weekly.\n- Lifestyle: Maintain a healthy BMI, ensure 7-9 hours of quality sleep, and actively manage stress.\n\nMonitoring Insight:\n- Trend: stable\n- Key Concern: Continue monitoring BMI and blood pressure, as they are identified risk drivers.\n\nDecision:\n- Action: Maintain\n- Justification: Low risk level and stable overall trend support continuing current healthy lifestyle recommendations.\n\nAlerts:\n- None\n\nConsult a qualified doctor before acting on this advice.",
+      "alerts": [],
+      "escalate": false
+    },
+    {
+      "date": "2026-04-28 22:17",
+      "input": {
+        "Pregnancies": 6,
+        "Glucose": 300.0,
+        "BloodPressure": 95.0,
+        "SkinThickness": 45.0,
+        "Insulin": 300.0,
+        "BMI": 33.0,
+        "DiabetesPedigreeFunction": 1.3,
+        "Age": 55
+      },
+      "risk_level": "High",
+      "probability": 0.6499,
+      "explanation": "RISK ASSESSMENT: High Risk (probability 65.0%)\n\nKEY RISK DRIVERS: The patient's risk is primarily driven by elevated Skin Thickness (45.0 mm \u2014 increased subcutaneous fat), elevated Insulin (300.0 \u03bcU/mL \u2014 elevated insulin levels), elevated Age (55 years \u2014 older age is associated with higher risk), Number of Pregnancies (6), and Glucose Category.\n   These factors significantly contributed to the prediction.\n\nPROTECTIVE FACTORS: bmi category, glucose level, family history score helped lower the risk score.\n\nCLINICAL SUMMARY:\n   High risk identified. Proactive clinical intervention and close monitoring are strongly recommended.\n\nNote: This is a decision-support explanation, NOT a medical diagnosis. Always consult a qualified healthcare provider.",
+      "recommendation": "Diet:\n*   Focus on foods that help manage blood sugar levels, such as non-starchy vegetables, lean proteins, and whole grains.\n*   Limit sugary drinks and foods, as well as highly processed snacks, to help control glucose levels.\n*   Aim for consistent meal times and portion sizes to support stable blood sugar and weight management.\n*   Increase your intake of fiber-rich foods like fruits, vegetables, and legumes to help with fullness and digestion.\n\nExercise:\n*   Aim for regular physical activity, such as brisk walking, to help improve your body's response to insulin and manage weight.\n*   Start with gentle exercises and gradually increase duration and intensity as you feel comfortable.\n*   Incorporate activities that build muscle, like lifting light weights or bodyweight exercises, to help burn fat and improve metabolism.\n*   Try to be active for at least 30 minutes most days of the week, breaking it into shorter sessions if needed.\n\nLifestyle:\n*   Work towards a healthy weight, as losing even a small amount of weight can significantly improve your health and reduce diabetes risk.\n*   Prioritize getting 7-9 hours of quality sleep each night, as poor sleep can affect blood sugar and appetite.\n*   Find healthy ways to manage stress, such as deep breathing, meditation, or hobbies, as stress can impact blood sugar levels.\n*   Schedule regular check-ups with your doctor to monitor your health and discuss your diabetes risk management plan.\n\nWarning:\nConsult a qualified doctor before making any medical decisions. This system is for decision support only and is not a diagnosis.",
+      "orchestrator_reasoning": "Risk Summary:\n- Level: High\n- Key Drivers: Elevated Skin Thickness, Elevated Insulin, Elevated Age\n\nClinical Insight:\n- Patient presents with high diabetes risk and critically elevated glucose, indicating an urgent need for intervention and close medical supervision.\n\nRecommendations (Refined):\n- Diet:\n    - Immediately eliminate sugary drinks and highly processed foods; prioritize non-starchy vegetables and lean proteins.\n    - Focus on consistent, portion-controlled meals with low glycemic index foods to stabilize blood sugar.\n- Exercise:\n    - Engage in daily, moderate-intensity physical activity like brisk walking to improve insulin sensitivity.\n    - Gradually incorporate strength training to aid metabolism and weight management.\n- Lifestyle:\n    - Prioritize achieving a healthy weight through sustainable changes, as this is critical for glucose control.\n    - Implement stress reduction techniques and ensure adequate sleep to positively impact blood sugar levels.\n\nMonitoring Insight:\n- Trend: first_visit\n- Key Concern: Critically elevated glucose requiring immediate medical attention and close monitoring.\n\nDecision:\n- Action: Intensify\n- Justification: High diabetes risk with critically elevated glucose necessitates intensified management and urgent medical consultation.\n\nAlerts:\n- \u26a0\ufe0f Glucose is critically elevated at 300.0 mg/dL.\n- High diabetes risk identified (probability 65.0%).\n\nConsult a qualified doctor before acting on this advice.",
+      "alerts": [
+        {
+          "severity": "high",
+          "message": "\u26a0\ufe0f Glucose is critically elevated at 300.0 mg/dL (threshold: 180 mg/dL)."
+        }
+      ],
+      "escalate": true
+    },
+    {
+      "date": "2026-05-02 08:40",
+      "input": {
+        "Pregnancies": 2,
+        "Glucose": 110.0,
+        "BloodPressure": 90.0,
+        "SkinThickness": 35.0,
+        "Insulin": 120.0,
+        "BMI": 30.0,
+        "DiabetesPedigreeFunction": 1.2,
+        "Age": 45
+      },
+      "risk_level": "High",
+      "probability": 0.5673,
+      "explanation": "RISK ASSESSMENT: High Risk (probability 56.7%)\n\nKEY RISK DRIVERS: The patient's risk is primarily driven by Blood Pressure (90.0 mmHg), Number of Pregnancies (2), Age (45 years), Insulin (120.0 \u03bcU/mL), and BMI Category.\n   These factors significantly contributed to the prediction.\n\nPROTECTIVE FACTORS: glucose category, bmi, family history score helped lower the risk score.\n\nCLINICAL SUMMARY:\n   High risk identified. Proactive clinical intervention and close monitoring are strongly recommended.\n\nNote: This is a decision-support explanation, NOT a medical diagnosis. Always consult a qualified healthcare provider.",
+      "recommendation": "Diet:\n\u2022 Prioritize whole, unprocessed foods like fruits, vegetables, and whole grains to help manage blood sugar and support weight loss.\n\u2022 Choose lean proteins and healthy fats to help you feel full and support a healthy weight, which is important for managing your risk.\n\u2022 Limit sugary drinks, sweets, and highly processed foods, as these can contribute to weight gain and negatively impact insulin levels.\n\u2022 Practice portion control at meals to help achieve and maintain a healthy weight, a key step in reducing your diabetes risk.\n\nExercise:\n\u2022 Aim for at least 30 minutes of moderate-intensity activity, like brisk walking, most days of the week to help manage your weight and improve blood pressure.\n\u2022 Include muscle-strengthening exercises 2-3 times a week, using light weights or bodyweight, to help your body use insulin more effectively.\n\u2022 Break up long periods of sitting with short walks or stretches to boost your activity level throughout the day.\n\nLifestyle:\n\u2022 Work closely with your healthcare provider to develop a plan for achieving and maintaining a healthy weight, as your BMI is a significant risk factor.\n\u2022 Regularly monitor your blood pressure and discuss the readings with your doctor, as managing blood pressure is important for your overall health.\n\u2022 Prioritize 7-9 hours of quality sleep each night, as good sleep can positively influence blood sugar control and stress levels.\n\u2022 Find healthy ways to manage stress, such as relaxation techniques or hobbies, which can support your heart health and overall well-being.\n\nWarning:\nConsult a qualified doctor before making any medical decisions. This system is for decision support only and is not a diagnosis.",
+      "orchestrator_reasoning": "Risk Summary:\n- Level: High\n- Key Drivers: Blood Pressure, Pregnancies, Age\n\nClinical Insight:\n- High risk of Type 2 Diabetes identified, primarily driven by BMI, blood pressure, and elevated insulin levels. Proactive intervention is crucial.\n\nRecommendations (Refined):\n- Diet:\n    - Prioritize whole, unprocessed foods, emphasizing lean proteins and high fiber to manage weight and insulin response effectively.\n    - Strictly limit added sugars and refined carbohydrates to support stable blood sugar and reduce insulin burden.\n- Exercise:\n    - Engage in regular moderate-intensity aerobic activity (e.g., brisk walking) for at least 150 minutes weekly to aid weight loss and blood pressure.\n    - Incorporate strength training 2-3 times per week to enhance muscle mass and improve insulin sensitivity.\n- Lifestyle:\n    - Work closely with a healthcare provider to develop a personalized plan for achieving a healthy weight and managing blood pressure.\n    - Monitor blood pressure regularly and discuss readings, alongside focusing on quality sleep and stress management.\n\nMonitoring Insight:\n- Trend: first_visit\n- Key Concern: High risk with multiple contributing factors (BMI, BP, Insulin), requiring close monitoring and active management.\n\nDecision:\n- Action: Intensify\n- Justification: High risk identified with no prior monitoring data, necessitating more focused and proactive recommendations to address key drivers.\n\nAlerts:\n- None\n\nConsult a qualified doctor before acting on this advice.",
+      "alerts": [],
+      "escalate": false
+    },
+    {
+      "date": "2026-05-02 09:10",
+      "input": {
+        "Pregnancies": 1,
+        "Glucose": 120.0,
+        "BloodPressure": 72.0,
+        "SkinThickness": 29.0,
+        "Insulin": 100.0,
+        "BMI": 25.0,
+        "DiabetesPedigreeFunction": 0.35,
+        "Age": 30
+      },
+      "risk_level": "Low",
+      "probability": 0.1069,
+      "explanation": "RISK ASSESSMENT: Low Risk (probability 10.7%)\n\nKEY RISK DRIVERS: The patient's risk is primarily driven by Blood Pressure (72.0 mmHg), BMI Category, Number of Pregnancies (1), BMI (25.0), and Family History Score (0.35).\n   These factors significantly contributed to the prediction.\n\nPROTECTIVE FACTORS: age, insulin, glucose level helped lower the risk score.\n\nCLINICAL SUMMARY:\n   Current metrics suggest low diabetes risk. Maintain a healthy lifestyle with regular checkups.\n\nNote: This is a decision-support explanation, NOT a medical diagnosis. Always consult a qualified healthcare provider.",
+      "recommendation": "Diet:\n\u2022 Focus on eating plenty of colorful vegetables, fruits, and whole grains to help manage your weight and keep your blood sugar stable.\n\u2022 Choose lean proteins like fish, chicken, beans, and lentils, and healthy fats from sources like avocados and nuts.\n\u2022 Be mindful of portion sizes, especially for foods high in sugar, unhealthy fats, or refined carbohydrates, to support a healthy BMI.\n\u2022 Limit processed foods, sugary drinks, and excessive salt intake to help maintain healthy blood pressure.\n\nExercise:\n\u2022 Aim for at least 30 minutes of moderate-intensity activity most days of the week, such as brisk walking, cycling, or swimming.\n\u2022 Include strength training exercises two to three times a week to build muscle, which helps with weight management and blood sugar control.\n\u2022 Find activities you enjoy to make regular exercise a sustainable part of your routine and support a healthy BMI.\n\nLifestyle:\n\u2022 Since you have a family history of diabetes, stay proactive with regular health check-ups and screenings as advised by your doctor.\n\u2022 Prioritize getting 7-9 hours of quality sleep each night, as good sleep supports overall health and can help with weight management.\n\u2022 Find healthy ways to manage stress, such as mindfulness, hobbies, or spending time in nature, which can positively impact your blood pressure and well-being.\n\nWarning:\nConsult a qualified doctor before making any medical decisions. This system is for decision support only and is not a diagnosis.",
+      "orchestrator_reasoning": "Risk Summary:\n- Level: Low\n- Key Drivers: BMI Category (Overweight), Number of Pregnancies, Diabetes Pedigree Function\n\nClinical Insight:\n- Patient exhibits low diabetes risk, but an overweight BMI and family history warrant proactive lifestyle management.\n\nRecommendations (Refined):\n- Diet: Prioritize whole foods, lean proteins, and mindful portions to support healthy weight. Limit processed foods and sugary drinks.\n- Exercise: Engage in at least 30 minutes of moderate activity most days; include strength training for muscle and weight management.\n- Lifestyle: Maintain regular health check-ups due to family history. Prioritize 7-9 hours of quality sleep and stress management.\n\nMonitoring Insight:\n- Trend: first_visit\n- Key Concern: Proactive weight management and monitoring due to overweight BMI and family history.\n\nDecision:\n- Action: Maintain\n- Justification: Risk is low with normal glucose. Current recommendations are appropriate for proactive management of identified risk factors.\n\nAlerts:\n- None\n\nConsult a qualified doctor before acting on this advice.",
+      "alerts": [],
+      "escalate": false
+    },
+    {
+      "date": "2026-05-02 09:19",
+      "input": {
+        "Pregnancies": 1,
+        "Glucose": 120.0,
+        "BloodPressure": 72.0,
+        "SkinThickness": 29.0,
+        "Insulin": 100.0,
+        "BMI": 25.0,
+        "DiabetesPedigreeFunction": 0.35,
+        "Age": 30
+      },
+      "risk_level": "Low",
+      "probability": 0.1069,
+      "explanation": "RISK ASSESSMENT: Low Risk (probability 10.7%)\n\nKEY RISK DRIVERS: The patient's risk is primarily driven by Blood Pressure (72.0 mmHg), BMI Category, Number of Pregnancies (1), BMI (25.0), and Family History Score (0.35).\n   These factors significantly contributed to the prediction.\n\nPROTECTIVE FACTORS: age, insulin, glucose level helped lower the risk score.\n\nCLINICAL SUMMARY:\n   Current metrics suggest low diabetes risk. Maintain a healthy lifestyle with regular checkups.\n\nNote: This is a decision-support explanation, NOT a medical diagnosis. Always consult a qualified healthcare provider.",
+      "recommendation": "Diet:\n\u2022 Emphasize balanced meals rich in vegetables, fruits, and whole grains to support overall health and weight management.\n\u2022 Choose lean proteins and healthy fats to help you feel full and maintain a healthy weight.\n\u2022 Limit processed foods, sugary drinks, and excessive salt intake to support healthy blood pressure and weight.\n\u2022 Focus on portion control to help manage your BMI and maintain a healthy weight.\n\nExercise:\n\u2022 Aim for at least 30 minutes of moderate-intensity activity most days of the week, like brisk walking or cycling, to support heart health and weight.\n\u2022 Incorporate strength training exercises 2-3 times a week to build muscle, which helps with metabolism and weight management.\n\u2022 Find enjoyable ways to be active daily, such as taking the stairs or walking during breaks, to increase overall physical activity.\n\nLifestyle:\n\u2022 Prioritize getting 7-9 hours of quality sleep each night, as good sleep supports overall health and can help manage weight and blood pressure.\n\u2022 Find healthy ways to manage stress, such as mindfulness or hobbies, which can positively impact blood pressure.\n\u2022 Schedule regular check-ups with your healthcare provider to monitor your health and discuss your family health history.\n\nWarning:\nConsult a qualified doctor before making any medical decisions. This system is for decision support only and is not a diagnosis.",
+      "orchestrator_reasoning": "Risk Summary:\n- Level: Low\n- Key Drivers: Blood Pressure, BMI Category, Number of Pregnancies\n\nClinical Insight:\n- Patient exhibits low diabetes risk with stable glucose and insulin levels. Current metrics suggest a healthy profile.\n\nRecommendations (Refined):\n- Diet:\n    - Emphasize balanced meals with vegetables, fruits, whole grains, and lean proteins for weight and blood pressure management.\n    - Limit processed foods, sugary drinks, and excessive salt intake.\n- Exercise:\n    - Aim for 30 minutes of moderate-intensity activity most days, plus 2-3 strength training sessions weekly.\n    - Integrate daily movement like walking or taking stairs.\n- Lifestyle:\n    - Prioritize 7-9 hours of quality sleep and practice stress management techniques.\n    - Schedule regular check-ups to monitor health and discuss family history.\n\nMonitoring Insight:\n- Trend: stable\n- Key Concern: Maintain current healthy lifestyle to sustain low risk and manage identified drivers like BMI Category and Blood Pressure.\n\nDecision:\n- Action: Maintain\n- Justification: Patient is at low risk with stable health metrics; current general healthy lifestyle recommendations are appropriate.\n\nAlerts:\n- None\n\nConsult a qualified doctor before acting on this advice.",
+      "alerts": [],
+      "escalate": false
+    }
+  ],
+  "PAT-003": [
+    {
+      "date": "2026-04-28 11:15",
+      "input": {
+        "Pregnancies": 2,
+        "Glucose": 124.0,
+        "BloodPressure": 102.0,
+        "SkinThickness": 29.0,
+        "Insulin": 120.0,
+        "BMI": 28.000000000000043,
+        "DiabetesPedigreeFunction": 0.4,
+        "Age": 41
+      },
+      "risk_level": "Moderate",
+      "probability": 0.4585,
+      "explanation": "\ud83d\udd0d RISK ASSESSMENT: Moderate Risk (probability 45.8%)\n\n\ud83d\udcca KEY RISK DRIVERS: The patient's risk is primarily driven by Number of Pregnancies (2), elevated Blood Pressure (102.0 mmHg \u2014 elevated blood pressure), Insulin (120.0 \u03bcU/mL), Glucose Category, and Family History Score (0.4).\n   These factors significantly contributed to the prediction.\n\n\ud83d\udee1\ufe0f  PROTECTIVE FACTORS: age, bmi category, bmi helped lower the risk score.\n\n\ud83d\udca1 CLINICAL SUMMARY:\n   Moderate risk detected. Lifestyle modifications (diet, exercise) and periodic monitoring are recommended.\n\n\u26a0\ufe0f  This is a decision-support explanation, NOT a medical diagnosis. Always consult a qualified healthcare provider.",
+      "recommendation": "Diet:\n\u2022 Maintain a balanced diet.\n\u2022 Monitor carbohydrate intake.\nExercise:\n\u2022 Engage in 30 mins of moderate exercise daily.\nLifestyle:\n\u2022 Regular check-ups.\nWarning:\nConsult a qualified doctor before making any medical decisions.",
+      "orchestrator_reasoning": "LLM reasoning unavailable due to quota or network error. Proceeding with standard rule-based monitoring.",
+      "alerts": [],
+      "escalate": false
+    },
+    {
+      "date": "2026-04-28 11:19",
+      "input": {
+        "Pregnancies": 2,
+        "Glucose": 124.0,
+        "BloodPressure": 102.0,
+        "SkinThickness": 29.0,
+        "Insulin": 120.0,
+        "BMI": 28.000000000000043,
+        "DiabetesPedigreeFunction": 0.4,
+        "Age": 41
+      },
+      "risk_level": "Moderate",
+      "probability": 0.4585,
+      "explanation": "\ud83d\udd0d RISK ASSESSMENT: Moderate Risk (probability 45.8%)\n\n\ud83d\udcca KEY RISK DRIVERS: The patient's risk is primarily driven by Number of Pregnancies (2), elevated Blood Pressure (102.0 mmHg \u2014 elevated blood pressure), Insulin (120.0 \u03bcU/mL), Glucose Category, and Family History Score (0.4).\n   These factors significantly contributed to the prediction.\n\n\ud83d\udee1\ufe0f  PROTECTIVE FACTORS: age, bmi category, bmi helped lower the risk score.\n\n\ud83d\udca1 CLINICAL SUMMARY:\n   Moderate risk detected. Lifestyle modifications (diet, exercise) and periodic monitoring are recommended.\n\n\u26a0\ufe0f  This is a decision-support explanation, NOT a medical diagnosis. Always consult a qualified healthcare provider.",
+      "recommendation": "Diet:\n\u2022 Maintain a balanced diet.\n\u2022 Monitor carbohydrate intake.\nExercise:\n\u2022 Engage in 30 mins of moderate exercise daily.\nLifestyle:\n\u2022 Regular check-ups.\nWarning:\nConsult a qualified doctor before making any medical decisions.",
+      "orchestrator_reasoning": "LLM reasoning unavailable due to quota or network error. Proceeding with standard rule-based monitoring.",
+      "alerts": [],
+      "escalate": false
+    },
+    {
+      "date": "2026-04-28 11:19",
+      "input": {
+        "Pregnancies": 2,
+        "Glucose": 124.0,
+        "BloodPressure": 102.0,
+        "SkinThickness": 29.0,
+        "Insulin": 120.0,
+        "BMI": 28.000000000000043,
+        "DiabetesPedigreeFunction": 0.4,
+        "Age": 41
+      },
+      "risk_level": "Moderate",
+      "probability": 0.4585,
+      "explanation": "\ud83d\udd0d RISK ASSESSMENT: Moderate Risk (probability 45.8%)\n\n\ud83d\udcca KEY RISK DRIVERS: The patient's risk is primarily driven by Number of Pregnancies (2), elevated Blood Pressure (102.0 mmHg \u2014 elevated blood pressure), Insulin (120.0 \u03bcU/mL), Glucose Category, and Family History Score (0.4).\n   These factors significantly contributed to the prediction.\n\n\ud83d\udee1\ufe0f  PROTECTIVE FACTORS: age, bmi category, bmi helped lower the risk score.\n\n\ud83d\udca1 CLINICAL SUMMARY:\n   Moderate risk detected. Lifestyle modifications (diet, exercise) and periodic monitoring are recommended.\n\n\u26a0\ufe0f  This is a decision-support explanation, NOT a medical diagnosis. Always consult a qualified healthcare provider.",
+      "recommendation": "Diet:\n\u2022 Maintain a balanced diet.\n\u2022 Monitor carbohydrate intake.\nExercise:\n\u2022 Engage in 30 mins of moderate exercise daily.\nLifestyle:\n\u2022 Regular check-ups.\nWarning:\nConsult a qualified doctor before making any medical decisions.",
+      "orchestrator_reasoning": "LLM reasoning unavailable due to quota or network error. Proceeding with standard rule-based monitoring.",
+      "alerts": [],
+      "escalate": false
+    },
+    {
+      "date": "2026-05-02 09:21",
+      "input": {
+        "Pregnancies": 3,
+        "Glucose": 114.0,
+        "BloodPressure": 95.0,
+        "SkinThickness": 37.0,
+        "Insulin": 110.0,
+        "BMI": 29.0,
+        "DiabetesPedigreeFunction": 1.1,
+        "Age": 36
+      },
+      "risk_level": "High",
+      "probability": 0.5178,
+      "explanation": "RISK ASSESSMENT: High Risk (probability 51.8%)\n\nKEY RISK DRIVERS: The patient's risk is primarily driven by BMI Category, elevated Blood Pressure (95.0 mmHg \u2014 elevated blood pressure), Insulin (110.0 \u03bcU/mL), Age (36 years), and Number of Pregnancies (3).\n   These factors significantly contributed to the prediction.\n\nPROTECTIVE FACTORS: glucose level, family history score, bmi helped lower the risk score.\n\nCLINICAL SUMMARY:\n   High risk identified. Proactive clinical intervention and close monitoring are strongly recommended.\n\nNote: This is a decision-support explanation, NOT a medical diagnosis. Always consult a qualified healthcare provider.",
+      "recommendation": "Diet:\n*   Choose more whole foods like fruits, vegetables, and whole grains to help manage weight and blood sugar.\n*   Limit sugary drinks and foods, as these can impact blood sugar and weight.\n*   Reduce foods high in salt to help support healthy blood pressure levels.\n*   Focus on lean proteins and healthy fats, like those found in nuts and avocados, to feel full and support overall health.\n\nExercise:\n*   Aim for at least 30 minutes of brisk walking or similar activity most days of the week to help manage weight and blood pressure.\n*   Include activities that build muscle, like lifting light weights or using resistance bands, a couple of times a week.\n*   Find enjoyable activities to stay active, such as dancing, swimming, or cycling, to make exercise a regular habit.\n\nLifestyle:\n*   Work towards a healthy weight, as even a small amount of weight loss can significantly lower your risk.\n*   Find ways to manage daily stress, such as deep breathing, meditation, or spending time in nature, which can help with blood pressure.\n*   Prioritize getting 7-9 hours of quality sleep each night, as good sleep supports overall health and blood sugar control.\n*   Schedule regular check-ups with your doctor to monitor your blood pressure, blood sugar, and overall health.\n\nWarning:\nConsult a qualified doctor before making any medical decisions. This system is for decision support only and is not a diagnosis.",
+      "orchestrator_reasoning": "Risk Summary:\n- Level: High\n- Key Drivers: BMI Category (Overweight), Blood Pressure (95.0), Insulin (110.0)\n\nClinical Insight:\nHigh risk of Type 2 Diabetes identified, primarily driven by metabolic factors and age, requiring proactive management.\n\nRecommendations (Refined):\n- Diet:\n    - Prioritize whole foods, lean proteins, and healthy fats for weight and blood sugar management.\n    - Strictly limit processed foods, sugary drinks, and high-sodium items to support blood pressure and overall metabolic health.\n- Exercise:\n    - Engage in at least 30 minutes of moderate-intensity aerobic activity most days to support cardiovascular health and weight.\n    - Incorporate strength training 2-3 times weekly to improve insulin sensitivity and muscle mass.\n- Lifestyle:\n    - Prioritize achieving and maintaining a healthy weight, as this directly impacts key risk factors.\n    - Manage stress and ensure 7-9 hours of quality sleep nightly to positively influence blood pressure and glucose regulation.\n\nMonitoring Insight:\n- Trend: stable\n- Key Concern: Persistent high risk despite stable trend, requiring focused intervention on modifiable risk factors.\n\nDecision:\n- Action: Intensify\n- Justification: High risk identified necessitates more targeted and precise interventions, even with a stable monitoring trend.\n\nAlerts:\n- None\n\nConsult a qualified doctor before acting on this advice.",
+      "alerts": [],
+      "escalate": false
+    }
+  ],
+  "PAT-002": [
+    {
+      "date": "2026-04-28 18:45",
+      "input": {
+        "Pregnancies": 0,
+        "Glucose": 127.0,
+        "BloodPressure": 70.0,
+        "SkinThickness": 33.0,
+        "Insulin": 20.0,
+        "BMI": 35.0,
+        "DiabetesPedigreeFunction": 0.6,
+        "Age": 50
+      },
+      "risk_level": "Moderate",
+      "probability": 0.3709,
+      "explanation": "\ud83d\udd0d RISK ASSESSMENT: Moderate Risk (probability 37.1%)\n\n\ud83d\udcca KEY RISK DRIVERS: The patient's risk is primarily driven by BMI Category, elevated Age (50 years \u2014 older age is associated with higher risk), Number of Pregnancies (0), Skin Thickness (33.0 mm), and Insulin (20.0 \u03bcU/mL).\n   These factors significantly contributed to the prediction.\n\n\ud83d\udee1\ufe0f  PROTECTIVE FACTORS: bmi, blood pressure, glucose level helped lower the risk score.\n\n\ud83d\udca1 CLINICAL SUMMARY:\n   Moderate risk detected. Lifestyle modifications (diet, exercise) and periodic monitoring are recommended.\n\n\u26a0\ufe0f  This is a decision-support explanation, NOT a medical diagnosis. Always consult a qualified healthcare provider.",
+      "recommendation": "**Diet:**\n\u2022 Focus on eating plenty of vegetables, fruits, and whole grains like oats and brown rice.\n\u2022 Choose lean proteins such as chicken, fish, beans, and lentils.\n\u2022 Limit sugary drinks, sweets, and highly processed foods to help manage your weight.\n\u2022 Be mindful of portion sizes to support healthy weight management.\n\n**Exercise:**\n\u2022 Aim for at least 30 minutes of moderate-intensity activity most days of the week, such as brisk walking.\n\u2022 Include activities that build muscle, like lifting light weights or bodyweight exercises, 2-3 times a week.\n\u2022 Start slowly and gradually increase the duration and intensity of your workouts.\n\n**Lifestyle:**\n\u2022 Schedule regular check-ups with your doctor to monitor your health and risk factors.\n\u2022 Keep track of your weight and aim for gradual, sustainable weight loss.\n\u2022 Prioritize getting 7-9 hours of quality sleep each night.\n\u2022 Find healthy ways to manage stress, such as hobbies, meditation, or spending time in nature.\n\n**Warning:**\nConsult a qualified doctor before making any medical decisions. This system is for decision support only and is not a diagnosis.",
+      "orchestrator_reasoning": "Risk Summary:\n- Level: Moderate\n- Key Drivers: BMI Category (Obese), Age (50), Number of Pregnancies (0)\n\nClinical Insight:\n- Patient presents with moderate risk for Type 2 Diabetes, primarily influenced by obesity and age.\n\nRecommendations (Refined):\n- Diet: Prioritize whole foods, lean proteins; limit sugary drinks and processed foods",
+      "alerts": [],
+      "escalate": false
+    },
+    {
+      "date": "2026-04-28 22:27",
+      "input": {
+        "Pregnancies": 3,
+        "Glucose": 150.0,
+        "BloodPressure": 90.0,
+        "SkinThickness": 35.0,
+        "Insulin": 150.0,
+        "BMI": 30.0,
+        "DiabetesPedigreeFunction": 1.1,
+        "Age": 40
+      },
+      "risk_level": "High",
+      "probability": 0.6799,
+      "explanation": "RISK ASSESSMENT: High Risk (probability 68.0%)\n\nKEY RISK DRIVERS: The patient's risk is primarily driven by Glucose Category, Age (40 years), Number of Pregnancies (3), Skin Thickness (35.0 mm), and Insulin (150.0 \u03bcU/mL).\n   These factors significantly contributed to the prediction.\n\nPROTECTIVE FACTORS: bmi, blood pressure, glucose level helped lower the risk score.\n\nCLINICAL SUMMARY:\n   High risk identified. Proactive clinical intervention and close monitoring are strongly recommended.\n\nNote: This is a decision-support explanation, NOT a medical diagnosis. Always consult a qualified healthcare provider.",
+      "recommendation": "Diet:\n*   Choose whole, unprocessed foods like fruits, vegetables, and whole grains more often to help manage your blood sugar levels.\n*   Limit sugary drinks, sweets, and foods made with white flour, as these can cause quick rises in blood sugar.\n*   Focus on lean protein sources such as chicken, fish, beans, and lentils, which can help you feel full and support healthy weight management.\n*   Practice mindful eating and portion control to help manage your body weight and improve how your body uses insulin.\n\nExercise:\n*   Aim for at least 150 minutes of moderate-intensity activity, like brisk walking or swimming, each week to improve your body's sensitivity to insulin.\n*   Incorporate strength training exercises, such as lifting light weights or using resistance bands, 2-3 times a week to build muscle, which helps with blood sugar control.\n*   Try to reduce long periods of sitting by taking short breaks to stand or move around every hour.\n\nLifestyle:\n*   Prioritize getting 7-9 hours of quality sleep each night, as poor sleep can negatively impact blood sugar and insulin regulation.\n*   Find healthy ways to manage stress, such as practicing relaxation techniques or engaging in hobbies, as stress can affect blood sugar levels.\n*   Schedule and attend regular check-ups with your healthcare provider to closely monitor your blood sugar, insulin levels, and overall health.\n*   Stay well-hydrated by drinking plenty of water throughout the day.\n\nWarning:\nConsult a qualified doctor before making any medical decisions. This system is for decision support only and is not a diagnosis.",
+      "orchestrator_reasoning": "Risk Summary:\n- Level: High\n- Key Drivers: Glucose Category, Age, Pregnancies\n\nClinical Insight:\nPatient is prediabetic with a high risk for Type 2 Diabetes, primarily driven by elevated glucose, age, and history of pregnancies. Proactive management is crucial.\n\nRecommendations (Refined):\n- Diet:\n    - Prioritize whole, unprocessed foods, focusing on fruits, vegetables, and lean proteins to manage blood sugar.\n    - Strictly limit sugary drinks, sweets, and refined grains to prevent rapid glucose spikes.\n- Exercise:\n    - Aim for at least 150 minutes of moderate-intensity aerobic activity weekly to improve insulin sensitivity.\n    - Incorporate strength training 2-3 times per week to build muscle and enhance glucose control.\n- Lifestyle:\n    - Ensure 7-9 hours of quality sleep nightly, as poor sleep impacts blood sugar regulation.\n    - Actively manage stress through relaxation techniques or hobbies to support overall metabolic health.\n\nMonitoring Insight:\n- Trend: first_visit\n- Key Concern: High baseline risk for T2D coupled with elevated glucose levels (prediabetic range).\n\nDecision:\n- Action: Intensify\n- Justification: High risk identified with elevated glucose and obesity, requiring a more focused and proactive intervention strategy.\n\nAlerts:\n- \u26a0\ufe0f Glucose is elevated at 150.0 mg/dL.\n\nConsult a qualified doctor before acting on this advice.",
+      "alerts": [
+        {
+          "severity": "medium",
+          "message": "\u26a0\ufe0f Glucose is elevated at 150.0 mg/dL."
+        }
+      ],
+      "escalate": false
+    }
+  ],
+  "PAT-007": [
+    {
+      "date": "2026-05-04 19:13",
+      "input": {
+        "Pregnancies": 1,
+        "Glucose": 180.0,
+        "BloodPressure": 72.0,
+        "SkinThickness": 29.0,
+        "Insulin": 100.0,
+        "BMI": 35.0,
+        "DiabetesPedigreeFunction": 0.35,
+        "Age": 77
+      },
+      "risk_level": "Very High",
+      "probability": 0.9748,
+      "explanation": "RISK ASSESSMENT: Very High (probability 97.5%)\n\nKEY RISK DRIVERS: The patient's risk is primarily driven by elevated Age (77 years \u2014 older age is associated with higher risk), and elevated Glucose level (180.0 mg/dL \u2014 prediabetic/diabetic range).\n   These factors significantly contributed to the prediction.\n\nPROTECTIVE FACTORS: family history score, number of pregnancies helped lower the risk score.\n\nCLINICAL SUMMARY:\n   Very high risk. Immediate medical consultation and comprehensive metabolic evaluation are advised.\n\nNote: This is a decision-support explanation, NOT a medical diagnosis. Always consult a qualified healthcare provider.",
+      "recommendation": "Diet:\n*   Prioritize whole, unprocessed foods like vegetables, fruits, and lean proteins to support stable blood sugar.\n*   Choose whole grains (like brown rice or oats) over refined grains to help manage your glucose levels.\n*   Limit sugary drinks, sweets, and highly processed foods that can quickly raise blood glucose.\n*   Focus on appropriate portion sizes to support healthy weight management, which is important for your BMI.\n\nExercise:\n*   Aim for regular, gentle physical activity, such as daily short walks or chair exercises, to improve fitness safely at your age.\n*   Incorporate light activities into your daily routine, like gardening or stretching, to stay active and help manage weight.\n*   Consider activities that are easy on the joints, such as swimming or water aerobics, if available.\n*   Start slowly and gradually increase activity as you feel comfortable, always listening to your body.\n\nLifestyle:\n*   Schedule an immediate appointment with your doctor for a comprehensive health review and personalized plan, given your very high risk.\n*   Monitor your blood sugar levels regularly as advised by your healthcare provider to track progress and understand your body's responses.\n*   Prioritize getting 7-9 hours of quality sleep each night, as good sleep supports overall health and blood sugar control.\n*   Practice stress-reducing techniques like deep breathing or gentle meditation, as stress can affect blood sugar levels.\n\nWarning:\nConsult a qualified doctor before making any medical decisions. This system is for decision support only and is not a diagnosis.",
+      "orchestrator_reasoning": "Risk Summary:\n- Level: Very High\n- Key Drivers: Elevated Age (77 years), Elevated Glucose (180.0 mg/dL)\n\nClinical Insight:\nPatient is elderly with a very high probability (97.5%) of diabetes, marked by elevated glucose and obesity, requiring urgent medical intervention.\n\nRecommendations (Refined):\n- Diet:\n    *   Emphasize whole, unprocessed foods (vegetables, lean proteins) to stabilize blood sugar.\n    *   Strictly limit sugary drinks, sweets, and refined grains to manage glucose and BMI.\n- Exercise:\n    *   Engage in regular, gentle physical activity like daily short walks or chair exercises.\n    *   Prioritize joint-friendly activities, starting slowly and listening to your body.\n- Lifestyle:\n    *   Schedule an immediate doctor's appointment for a comprehensive health review and personalized plan.\n    *   Monitor blood sugar levels regularly and prioritize 7-9 hours of quality sleep.\n\nMonitoring Insight:\n- Trend: first_visit\n- Key Concern: Very high diabetes risk and significantly elevated glucose level.\n\nDecision:\n- Action: Escalate\n- Justification: The patient's very high diabetes risk (97.5%) and elevated glucose necessitate immediate comprehensive medical evaluation and personalized care.\n\nAlerts:\n- \ud83d\udea8 Critical: Risk level is VERY HIGH \u2014 immediate clinical attention required.\n- \u26a0\ufe0f Glucose is elevated at 180.0 mg/dL.\n\nConsult a qualified doctor before acting on this advice.",
+      "alerts": [
+        {
+          "severity": "critical",
+          "message": "\ud83d\udea8 Critical: Risk level is VERY HIGH \u2014 immediate clinical attention required."
+        },
+        {
+          "severity": "medium",
+          "message": "\u26a0\ufe0f Glucose is elevated at 180.0 mg/dL."
+        }
+      ],
+      "escalate": true
+    }
+  ],
+  "PAT-014": [
+    {
+      "date": "2026-05-04 19:32",
+      "input": {
+        "Pregnancies": 1,
+        "Glucose": 70.0,
+        "BloodPressure": 72.0,
+        "SkinThickness": 29.0,
+        "Insulin": 100.0,
+        "BMI": 22.7,
+        "DiabetesPedigreeFunction": 0.0,
+        "Age": 46
+      },
+      "risk_level": "Low",
+      "probability": 0.0454,
+      "explanation": "RISK ASSESSMENT: Low Risk (probability 4.5%)\n\nKEY RISK DRIVERS: The patient's risk is primarily driven by elevated Age (46 years \u2014 older age is associated with higher risk).\n   These factors significantly contributed to the prediction.\n\nPROTECTIVE FACTORS: number of pregnancies, glucose level, family history score helped lower the risk score.\n\nCLINICAL SUMMARY:\n   Current metrics suggest low diabetes risk. Maintain a healthy lifestyle with regular checkups.\n\nNote: This is a decision-support explanation, NOT a medical diagnosis. Always consult a qualified healthcare provider.",
+      "recommendation": "**Diet:**\n\u2022 Focus on a balanced diet rich in fruits, vegetables, and whole grains to support overall health.\n\u2022 Choose lean protein sources like fish, chicken, or beans, and healthy fats from avocados or nuts.\n\u2022 Limit foods high in added sugars and unhealthy fats to help maintain stable blood sugar levels.\n\n**Exercise:**\n\u2022 Aim for at least 150 minutes of moderate-intensity activity each week, like brisk walking or swimming.\n\u2022 Include strength training exercises two or more days a week to maintain muscle mass as you age.\n\u2022 Find enjoyable ways to stay active daily, such as taking the stairs or going for short walks.\n\n**Lifestyle:**\n\u2022 Prioritize getting 7-9 hours of quality sleep each night to support your body's functions.\n\u2022 Find healthy ways to manage stress, such as mindfulness, hobbies, or spending time in nature.\n\u2022 Schedule regular health check-ups with your doctor to monitor your overall health as you age.\n\n**Warning:**\nConsult a qualified doctor before making any medical decisions. This system is for decision support only and is not a diagnosis.",
+      "orchestrator_reasoning": "Risk Summary:\n- Level: Low\n- Key Drivers: Age (46 years)\n\nClinical Insight:\n- Patient presents with low diabetes risk, supported by normal glucose and BMI. Age is the primary identified risk factor.\n\nRecommendations (Refined):\n- Diet: Prioritize balanced meals with fruits, vegetables, whole grains, and lean proteins. Limit added sugars and unhealthy fats.\n- Exercise: Aim for 150 minutes of moderate activity weekly, including strength training 2+ days.\n- Lifestyle: Ensure 7-9 hours of quality sleep and manage stress effectively. Schedule regular health check-ups.\n\nMonitoring Insight:\n- Trend: first_visit\n- Key Concern: Maintain current low-risk status through consistent healthy lifestyle practices.\n\nDecision:\n- Action: Maintain\n- Justification: Risk is low, and current metrics are favorable. Agent D's recommendations are appropriate for prevention and general well-being.\n\nAlerts:\n- None\n\nConsult a qualified doctor before acting on this advice.",
+      "alerts": [],
+      "escalate": false
+    },
+    {
+      "date": "2026-05-04 19:34",
+      "input": {
+        "Pregnancies": 1,
+        "Glucose": 110.0,
+        "BloodPressure": 72.0,
+        "SkinThickness": 34.0,
+        "Insulin": 90.0,
+        "BMI": 25.0,
+        "DiabetesPedigreeFunction": 0.0,
+        "Age": 47
+      },
+      "risk_level": "Low",
+      "probability": 0.2221,
+      "explanation": "RISK ASSESSMENT: Low Risk (probability 22.2%)\n\nKEY RISK DRIVERS: The patient's risk is primarily driven by elevated Age (47 years \u2014 older age is associated with higher risk).\n   These factors significantly contributed to the prediction.\n\nPROTECTIVE FACTORS: number of pregnancies, glucose level, family history score helped lower the risk score.\n\nCLINICAL SUMMARY:\n   Current metrics suggest low diabetes risk. Maintain a healthy lifestyle with regular checkups.\n\nNote: This is a decision-support explanation, NOT a medical diagnosis. Always consult a qualified healthcare provider.",
+      "recommendation": "Diet:\n\u2022 Enjoy a variety of colorful fruits and vegetables daily to get essential nutrients.\n\u2022 Choose whole grains like oats, brown rice, and whole-wheat bread instead of white bread or sugary cereals.\n\u2022 Limit sugary drinks, sweets, and highly processed snacks to help keep your blood sugar steady.\n\u2022 Pay attention to portion sizes to help maintain a healthy weight.\n\nExercise:\n\u2022 Aim for at least 30 minutes of moderate-intensity activity most days of the week, like brisk walking or cycling.\n\u2022 Incorporate activities that build strength, such as lifting light weights or using resistance bands, a couple of times a week.\n\u2022 Find physical activities you enjoy, like dancing, gardening, or swimming, to make staying active easier.\n\nLifestyle:\n\u2022 Schedule regular check-ups with your doctor to monitor your overall health and discuss any concerns.\n\u2022 Aim for 7-9 hours of quality sleep each night to support your body's natural functions.\n\u2022 Find healthy ways to manage stress, such as mindfulness, hobbies, or spending time in nature.\n\nWarning:\nConsult a qualified doctor before making any medical decisions. This system is for decision support only and is not a diagnosis.",
+      "orchestrator_reasoning": "Risk Summary:\n- Level: Low\n- Key Drivers: Age (47 years)\n\nClinical Insight:\n- Patient currently has low diabetes risk, but BMI is in the Overweight category and glucose levels are normal.\n\nRecommendations (Refined):\n- Diet: Prioritize lean proteins, fiber-rich vegetables, and complex carbohydrates to manage blood sugar and satiety. Strictly limit added sugars, refined grains, and processed foods to support weight management.\n- Exercise: Increase moderate-intensity aerobic activity to at least 150 minutes weekly, focusing on calorie-burning activities. Incorporate strength training 2-3 times per week to build muscle, aiding metabolism.\n- Lifestyle: Maintain consistent self-monitoring of glucose and weight, reporting any significant changes to your doctor. Ensure adequate sleep and stress management, as both impact blood sugar and weight regulation.\n\nMonitoring Insight:\n- Trend: Worsening\n- Key Concern: Significant worsening trends in both glucose (+57.1%) and BMI (+10.1%) over recent visits.\n\nDecision:\n- Action: Intensify\n- Justification: Despite current low risk, the overall worsening trend in key metabolic markers (glucose, BMI) necessitates more focused intervention.\n\nAlerts:\n- \u26a0\ufe0f Overall health trend is worsening over recent visits.\n\nConsult a qualified doctor before acting on this advice.",
+      "alerts": [
+        {
+          "severity": "high",
+          "message": "\u26a0\ufe0f Overall health trend is worsening over recent visits."
+        }
+      ],
+      "escalate": false
+    }
+  ],
+  "PAT-012": [
+    {
+      "date": "2026-05-04 20:41",
+      "input": {
+        "Pregnancies": 0,
+        "Glucose": 90.0,
+        "BloodPressure": 72.0,
+        "SkinThickness": 34.0,
+        "Insulin": 90.0,
+        "BMI": 25.0,
+        "DiabetesPedigreeFunction": 0.0,
+        "Age": 48
+      },
+      "risk_level": "Low",
+      "probability": 0.1157,
+      "explanation": "RISK ASSESSMENT: Low Risk (probability 11.6%)\n\nKEY RISK DRIVERS: The patient's risk is primarily driven by elevated Age (48 years \u2014 older age is associated with higher risk).\n   These factors significantly contributed to the prediction.\n\nPROTECTIVE FACTORS: number of pregnancies, glucose level, family history score helped lower the risk score.\n\nCLINICAL SUMMARY:\n   Current metrics suggest low diabetes risk. Maintain a healthy lifestyle with regular checkups.\n\nNote: This is a decision-support explanation, NOT a medical diagnosis. Always consult a qualified healthcare provider.",
+      "recommendation": "Diet:\n*   Focus on eating a variety of colorful fruits and vegetables daily.\n*   Choose whole grains like oats, brown rice, and whole-wheat bread over refined grains.\n*   Limit sugary drinks and processed snacks to help manage your weight.\n*   Be mindful of portion sizes to support a healthy weight, especially since your BMI is in the overweight category.\n\nExercise:\n*   Aim for at least 30 minutes of moderate-intensity activity most days of the week, such as brisk walking or cycling.\n*   Incorporate strength-building exercises twice a week to maintain muscle mass as you age.\n*   Find activities you enjoy to make regular exercise a sustainable part of your routine.\n\nLifestyle:\n*   Schedule regular check-ups with your doctor to monitor your overall health and discuss any concerns.\n*   Prioritize getting 7-9 hours of quality sleep each night to support your body's functions.\n*   Manage stress through activities like meditation, hobbies, or spending time in nature.\n*   Stay well-hydrated by drinking plenty of water throughout the day.\n\nWarning:\nConsult a qualified doctor before making any medical decisions. This system is for decision support only and is not a diagnosis.",
+      "orchestrator_reasoning": "Risk Summary:\n- Level: Low\n- Key Drivers: Age (48 years), Overweight BMI, Worsening Glucose Trend\n\nClinical Insight:\n- Patient exhibits low diabetes risk, but recent trends show significant worsening in glucose and BMI, necessitating proactive lifestyle adjustments.\n\nRecommendations (Refined):\n- Diet:\n    - Prioritize low-glycemic foods, lean proteins, and non-starchy vegetables to stabilize glucose.\n    - Strictly manage portion sizes and limit processed foods to support healthy weight.\n- Exercise:\n    - Engage in consistent moderate-intensity cardio (30+ mins daily) to improve glucose metabolism.\n    - Incorporate strength training 2-3 times weekly to build muscle and support BMI.\n- Lifestyle:\n    - Schedule regular follow-ups to monitor health trends and discuss progress.\n    - Prioritize 7-9 hours of quality sleep and effective stress management techniques.\n\nMonitoring Insight:\n- Trend: Worsening\n- Key Concern: Significant worsening trends in glucose (+57.1%) and BMI (+10.1%) over recent visits.\n\nDecision:\n- Action: Intensify\n- Justification: Despite low current risk, the overall worsening trend, particularly in glucose and BMI, necessitates more focused and consistent interventions.\n\nAlerts:\n- \u26a0\ufe0f Overall health trend is worsening over recent visits.\n\nConsult a qualified doctor before acting on this advice.",
+      "alerts": [
+        {
+          "severity": "high",
+          "message": "\u26a0\ufe0f Overall health trend is worsening over recent visits."
+        }
+      ],
+      "escalate": false
+    },
+    {
+      "date": "2026-05-04 20:42",
+      "input": {
+        "Pregnancies": 1,
+        "Glucose": 180.0,
+        "BloodPressure": 74.0,
+        "SkinThickness": 34.0,
+        "Insulin": 90.0,
+        "BMI": 25.0,
+        "DiabetesPedigreeFunction": 0.0,
+        "Age": 48
+      },
+      "risk_level": "Very High",
+      "probability": 0.8117,
+      "explanation": "RISK ASSESSMENT: Very High (probability 81.2%)\n\nKEY RISK DRIVERS: The patient's risk is primarily driven by elevated Age (48 years \u2014 older age is associated with higher risk), and elevated Glucose level (180.0 mg/dL \u2014 prediabetic/diabetic range).\n   These factors significantly contributed to the prediction.\n\nPROTECTIVE FACTORS: family history score, number of pregnancies helped lower the risk score.\n\nCLINICAL SUMMARY:\n   Very high risk. Immediate medical consultation and comprehensive metabolic evaluation are advised.\n\nNote: This is a decision-support explanation, NOT a medical diagnosis. Always consult a qualified healthcare provider.",
+      "recommendation": "Diet:\n*   Focus on reducing sugary drinks and foods to help manage your high glucose level. Choose water instead.\n*   Prioritize whole, unprocessed foods like vegetables, fruits, and lean proteins to support stable blood sugar.\n*   Be mindful of portion sizes, especially for carbohydrate-rich foods, to help control glucose spikes.\n*   Limit refined grains (like white bread, pasta) and opt for whole grains (like oats, brown rice) to improve blood sugar control.\n\nExercise:\n*   Aim for at least 30 minutes of moderate-intensity activity, like brisk walking, most days of the week to improve glucose use.\n*   Incorporate strength training exercises (e.g., bodyweight exercises, light weights) 2-3 times a week to build muscle, which helps manage blood sugar.\n*   Try to reduce long periods of sitting by taking short walks or stretching breaks throughout your day.\n\nLifestyle:\n*   Schedule an immediate consultation with your doctor to discuss your very high risk and create a personalized health plan.\n*   Prioritize getting 7-9 hours of quality sleep each night, as good sleep helps regulate blood sugar and overall health.\n*   Find healthy ways to manage stress, such as meditation, hobbies, or spending time outdoors, as stress can impact blood sugar.\n*   Work with your doctor to establish a plan for regular blood sugar monitoring to track your progress.\n\nWarning:\nConsult a qualified doctor before making any medical decisions. This system is for decision support only and is not a diagnosis.",
+      "orchestrator_reasoning": "Risk Summary:\n- Level: Very High\n- Key Drivers: Elevated Age (48 years), Elevated Glucose (180.0 mg/dL)\n\nClinical Insight:\nPatient presents with very high risk for Type 2 Diabetes, driven by age and significantly elevated glucose levels, requiring urgent clinical attention.\n\nRecommendations (Refined):\n- Diet: Strictly limit sugary drinks and refined carbohydrates; prioritize whole, unprocessed foods.\n- Exercise: Engage in daily moderate-intensity activity; incorporate strength training 2-3 times weekly.\n- Lifestyle: Schedule an immediate consultation with your doctor; prioritize 7-9 hours of quality sleep.\n\nMonitoring Insight:\n- Trend: Worsening\n- Key Concern: Critical very high risk with a significant worsening in glucose levels.\n\nDecision:\n- Action: Escalate\n- Justification: Very high risk, critical alerts, and a worsening overall health trend, particularly glucose, necessitate immediate clinical evaluation.\n\nAlerts:\n- Critical: Risk level is VERY HIGH \u2014 immediate clinical attention required.\n- High: Overall health trend is worsening over recent visits.\n\nConsult a qualified doctor before acting on this advice.",
+      "alerts": [
+        {
+          "severity": "critical",
+          "message": "\ud83d\udea8 Critical: Risk level is VERY HIGH \u2014 immediate clinical attention required."
+        },
+        {
+          "severity": "medium",
+          "message": "\u26a0\ufe0f Glucose is elevated at 180.0 mg/dL."
+        },
+        {
+          "severity": "high",
+          "message": "\u26a0\ufe0f Risk escalated from Low \u2192 Very High."
+        },
+        {
+          "severity": "high",
+          "message": "\u26a0\ufe0f Overall health trend is worsening over recent visits."
+        }
+      ],
+      "escalate": true
+    }
+  ]
+}
